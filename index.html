@@ -1651,6 +1651,33 @@ const Calculator = {
 };
 
 // ==========================================
+// PERSISTANCE localStorage
+// ==========================================
+const Storage = {
+  KEY_ACTIVITIES: 'magicpass_activities',
+  KEY_FRIENDS: 'magicpass_friends',
+
+  load() {
+    try {
+      const acts = localStorage.getItem(this.KEY_ACTIVITIES);
+      const frnds = localStorage.getItem(this.KEY_FRIENDS);
+      if (acts) RAW_DATA.activities = JSON.parse(acts);
+      if (frnds) Object.assign(FRIENDS, JSON.parse(frnds));
+    } catch(e) { console.warn('localStorage non disponible', e); }
+  },
+
+  saveActivities() {
+    try { localStorage.setItem(this.KEY_ACTIVITIES, JSON.stringify(RAW_DATA.activities)); }
+    catch(e) { console.warn('Sauvegarde échouée', e); }
+  },
+
+  saveFriends() {
+    try { localStorage.setItem(this.KEY_FRIENDS, JSON.stringify(FRIENDS)); }
+    catch(e) { console.warn('Sauvegarde échouée', e); }
+  }
+};
+
+// ==========================================
 // RENDU
 // ==========================================
 const Renderer = {
