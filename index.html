@@ -1469,12 +1469,12 @@ function decodeDeltaGpx(raw) {
 }
 
 async function loadData() {
-  const base = document.currentScript
-    ? new URL('.', document.currentScript.src).href
-    : window.location.href.replace(/\/[^\/]*$/, '/');
+  // Chemin absolu basé sur l'URL de la page (fonctionne sur GitHub Pages)
+  const base = window.location.href.replace(/\/[^\/]*(\?.*)?$/, '/');
   const get = async (file) => {
-    const res = await fetch(base + 'data/' + file);
-    if (!res.ok) throw new Error('Impossible de charger ' + file);
+    const url = base + 'data/' + file;
+    const res = await fetch(url);
+    if (!res.ok) throw new Error('Impossible de charger ' + url + ' (' + res.status + ')');
     return res.json();
   };
   try {
