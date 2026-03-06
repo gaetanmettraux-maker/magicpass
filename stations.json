@@ -1,0 +1,67 @@
+{
+  "Moléson": {
+    "name": "Moléson",
+    "lat": 46.56128,
+    "lng": 7.0382
+  },
+  "Schwarzsee": {
+    "name": "Schwarzsee (Lac Noir)",
+    "lat": 46.6709,
+    "lng": 7.2896
+  },
+  "La Berra": {
+    "name": "La Berra",
+    "lat": 46.687192,
+    "lng": 7.154911
+  },
+  "Gastlosen": {
+    "name": "Gastlosen (Jaun)",
+    "lat": 46.5008,
+    "lng": 7.3361
+  },
+  "Niederhorn": {
+    "name": "Niederhorn",
+    "lat": 46.7065,
+    "lng": 7.7707
+  },
+  "Saas Fee": {
+    "name": "Saas Fee",
+    "lat": 46.10805,
+    "lng": 7.92741
+  },
+  "Schönried": {
+    "name": "Schönried",
+    "lat": 46.5561,
+    "lng": 7.3614
+  },
+  "Gstaad": {
+    "name": "Gstaad",
+    "lat": 46.47215,
+    "lng": 7.28685
+  },
+  "Villars": {
+    "name": "Villars",
+    "lat": 46.29832,
+    "lng": 7.05631
+  },
+  "Leysin": {
+    "name": "Leysin",
+    "lat": 46.34183,
+    "lng": 7.01151
+  },
+  "Rougemont": {
+    "name": "Rougemont",
+    "lat": 46.48914,
+    "lng": 7.20892
+  },
+  "Charmey": {
+    "name": "Charmey",
+    "lat": 46.617,
+    "lng": 7.165
+  },
+  "Grimentz": {
+    "name": "Grimentz",
+    "lat": 46.18054,
+    "lng": 7.577
+  }
+}

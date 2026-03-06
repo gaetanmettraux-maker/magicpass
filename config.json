@@ -1,0 +1,27 @@
+{
+  "season": "2025-2026",
+  "currency": "CHF",
+  "passPrice": 419,
+  "home": {
+    "name": "Marly",
+    "lat": 46.775258986780344,
+    "lng": 7.152369528812679
+  },
+  "litersPerHundredKm": 6,
+  "fuelPriceChf": 1.5,
+  "stationDistances": {
+    "Moléson": 32,
+    "Schwarzsee": 22,
+    "La Berra": 15,
+    "Gastlosen": 46,
+    "Niederhorn": 111,
+    "Saas Fee": 0,
+    "Schönried": 64,
+    "Gstaad": 63,
+    "Villars": 86,
+    "Leysin": 90,
+    "Rougemont": 56,
+    "Charmey": 27,
+    "Grimentz": 161
+  }
+}
