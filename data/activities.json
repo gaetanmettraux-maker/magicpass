@@ -209,4 +209,15 @@
     "price": 124,
     "days": 2
   }
+   {
+    "date": "19.03.26",
+    "station": "Diableret",
+    "type": "hiver",
+    "participants": [
+      "gaetan"
+
+    ],
+    "price": 84
+    
+  }
 ]
